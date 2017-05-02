@@ -24,6 +24,11 @@
     color: var(--text-color);
   }
 
+  /* SHIM: Move the header down a little, since we don’t have a tag line. */
+  #container_home_header h2 {
+    margin-top: 1.25em !important;
+  }
+
   /*
   a {
     color: var(--link-color);

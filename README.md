@@ -1,7 +1,7 @@
-# Azusa High School
+# Azusa Unified School District
 
-This is a design prototype for the Azusa High School website. You can view the site here:
-http://gladstonehighschool.jimthoburn.com
+This is a design prototype for the Azusa district website. You can view the site here:
+http://azusadistrict.jimthoburn.com
 
 ## How to make changes
 
@@ -32,6 +32,3 @@ To start Gulp…
 ```
 gulp
 ```
-
-Install Nokogiri
-http://www.nokogiri.org/tutorials/installing_nokogiri.html#mac_os_x

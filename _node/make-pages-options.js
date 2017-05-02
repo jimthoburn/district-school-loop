@@ -1,7 +1,7 @@
 
 'use strict';
 
-exports.BASE_URL = 'http://ahs-ausd-ca.schoolloop.com';
+exports.BASE_URL = 'http://ausd-ca.schoolloop.com';
 
 exports.HEAD_ELEMENT_HTML = `
 <!--
@@ -13,22 +13,21 @@ exports.HEAD_ELEMENT_HTML = `
 
 exports.LOGO_HTML = `
 <a href="/">
-  <img src="/images/azusa.png" width="150" alt="" />
-  <h2>Azusa High School</h2>
-  <p>Home of the Mighty Aztecs</p>
+  <img src="/images/azusa-district.png" width="150" alt="" />
+  <h2>Azusa Unified School District</h2>
 </a>
 `;
 
 exports.FOOTER_HTML = `
 <div class="contact">
   <div>
-    <h2>Azusa High School</h2>
-    <p>240 North Cerritos Avenue<br />Azusa, CA 91702 </p>
-    <p>626-815-3400</p>
+    <h2>Azusa Unified School District</h2>
+    <p>546 South Citrus Avenue<br />Azusa, CA 91702</p>
+    <p>626-967-6211</p>
   </div>
 
-  <p><strong>Linda McNary, Principal</strong><br /><a href="mailto:lmcnary@azusa.org">lmcnary@azusa.org</a></p>
-  <p><strong>Lorrie Brown, School Secretary</strong><br /><a href="mailto:lbrown@azusa.org">lbrown@azusa.org</a></p>
+  <p><strong>Linda Kaminski, Superintendent</strong><br /><a href="mailto:LKaminski@azusa.org">LKaminski@azusa.org</a></p>
+  <p><strong>Kathy Purpero, Secretary</strong><br /><a href="mailto:kpurpero@azusa.org">kpurpero@azusa.org</a></p>
 </div>
 
 <div class="legal">
@@ -37,7 +36,7 @@ exports.FOOTER_HTML = `
 </div>
 `;
 
-exports.SITE_MAP_URL = 'http://ahs-ausd-ca.schoolloop.com/portal/site_map?d=x';
+exports.SITE_MAP_URL = 'http://ausd-ca.schoolloop.com/portal/site_map?d=x';
 
 exports.SECTIONS_DATA = [{
   title: 'Main Pages',
@@ -45,11 +44,6 @@ exports.SECTIONS_DATA = [{
     {
       url: '/',
       title: 'Home'
-    },
-    {
-      url: '/cms/month?d=x&group_id=1301752510104',
-      title: 'Calendar'
-    },
-    {"url":"/cms/page_view?d=x&piid=&vpid=1344353760609","title":"College and Career Calendar"},{"url":"/presentations","title":"Upcoming Presentations, Deadlines & Events"},{"url":"/cms/page_view?d=x&piid=&vpid=1349522606978","title":"Job Search Sites"},{"url":"/careerresources","title":"Career Resources"},{"url":"/careertrainingprograms","title":"Career Training Programs"},{"url":"/testing","title":"Career & College Testing"},{"url":"/collegeresources","title":"College Planning  Resources"},{"url":"/collegeapp","title":"College Applications & Essays"},{"url":"/specificschools","title":"Links to Specific Colleges & Universities"},{"url":"/letterofrecommendation","title":"Letter of Recommendation Information"},{"url":"/financialaid","title":"Financial Aid & Scholarships"},{"url":"/cms/page_view?d=x&piid=&vpid=1350722460838","title":"Information for Undocumented Students"},{"url":"/timelines","title":"Student Timelines by Grade Level"},{"url":"/cms/page_view?d=x&piid=&vpid=1351250114658","title":"Educational Resources"},{"url":"/legaldoc","title":"Legal Documents"},{"url":"/cms/page_view?d=x&piid=&vpid=1351250123718","title":"Staff"},{"url":"/donor","title":"Would You Like To Offer A Scholarship?"},{"url":"/cms/page_view?d=x&piid=&vpid=1433066601111","title":"2016-17 Seniors"}]
-}
-];
+    }
+  ]
+}];

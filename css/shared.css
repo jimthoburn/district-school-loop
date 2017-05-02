@@ -9,6 +9,12 @@
     color: rgb(40, 41, 43);
   }
 
+  /* SHIM: Move the header down a little, since we don’t have a tag line. */
+
+  #container_home_header h2 {
+    margin-top: 1.25em !important;
+  }
+
   /*
   a {
     color: var(--link-color);
@@ -223,12 +229,14 @@
     line-height: 1.5;
     font-size: inherit;
     color: inherit;
+    text-align: left;
   }
 
   #container_header p,
   #container_home_header p {
     font-style: italic;
     line-height: 1.5;
+    text-align: left;
   }
 
   #container_header,
@@ -244,6 +252,10 @@
   #container_home_header a,
   #container_footer a {
     color: unset;
+  }
+
+  .container03_middle {
+    background-image: unset;
   }
 
   .nav_public {
