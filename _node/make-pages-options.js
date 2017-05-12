@@ -47,6 +47,90 @@ exports.SECTIONS_DATA = [{
     {
       url: '/',
       title: 'Home'
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1424952112612",
+      "title": "Assessment"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1424952194329",
+      "title": "Before and After School Programs"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1424952194329",
+      "title": "Bullying"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1424952216031",
+      "title": "College and Career Readiness"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1430908574790",
+      "title": "Community Resources"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1427276909310",
+      "title": "District Parent Committees"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1455013998339",
+      "title": "Dual Immersion"
+    },
+    {
+      "url": "/enrollment",
+      "title": "Enroll in Azusa Schools"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1430211145599",
+      "title": "Family Support"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1425293303004",
+      "title": "Graduation Requirements"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1425293303004",
+      "title": "Instructional Programs"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1425293308442",
+      "title": "Instructional Standards"
+    },
+    {
+      "url": "/trcis",
+      "title": "Internet Safety"
+    },
+    {
+      "url": "/LCAP",
+      "title": "LCAP"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1463135339973",
+      "title": "Mathematics"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1431162694574",
+      "title": "Nutrition Services"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1430908697405",
+      "title": "Program Improvement"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1425293306290",
+      "title": "Quality Websites"
+    },
+    {
+      "url": "/transcripts",
+      "title": "Transcripts"
+    },
+    {
+      "url": "/cms/page_view?d=x&piid=&vpid=1430211145424",
+      "title": "Transportation"
+    },
+    {
+      "url": "/williams",
+      "title": "Williams Compliance Information"
     }
   ]
 }];
