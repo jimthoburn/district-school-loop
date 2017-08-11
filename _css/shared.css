@@ -164,7 +164,7 @@
   #container_home_header img {
   	display: block;
     float: left;
-    height: 4.5em;
+    height: 6em;
     width: auto;
     margin-right: 0.75em;
   }
@@ -179,6 +179,10 @@
     font-size: inherit;
     color: inherit;
     text-align: left;
+
+    /* @hidden-accessible */
+    position: absolute;
+    left: -9999px;
   }
   #container_header p,
   #container_home_header p {
@@ -193,6 +197,14 @@
     color: unset;
     height: auto;
     padding: 1.5em;
+  }
+  #container_header,
+  #container_home_header {
+    background-image: url(/images/header-kids.png);
+    background-image: url(/images/header-kids.png), url(/images/header-background.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    height: 400px;
   }
   #container_header a,
   #container_home_header a,
