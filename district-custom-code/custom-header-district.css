@@ -40,14 +40,41 @@
     background-position: center !important;
   }
 
-  .azusa-parents #container_header {
-    background-image: url(images/instagram/14488205_724767584345061_195698733143293952_n.jpg) !important;
+  .azusa-departments #container_header {
+    background-image: url(images/instagram/16908371_1685165375123633_4952913950254563328_n.jpg) !important;
+    background-position: center !important;
+  }
+
+  .azusa-schools #container_header {
+    background-image: url(images/instagram/13734432_1172781379460509_795836197_n.jpg) !important;
     background-position: center !important;
 
     height: 55vh !important;
     min-height: 40vw;
   }
 
+  .azusa-staff #container_header {
+    background-image: url(images/student.jpg) !important;
+    background-position: center !important;
+  }
+
+  .azusa-standards #container_header {
+    background-image: url(images/students.jpg) !important;
+    background-position: center !important;
+  }
+
+  .azusa-parents #container_header {
+    background-image: url(images/instagram/14488205_724767584345061_195698733143293952_n.jpg) !important;
+    background-position: center !important;
+
+    height: 55vh !important;
+    min-height: 45vw;
+  }
+
+  .azusa-about #container_header {
+    background-image: url(images/kids.jpg) !important;
+    background-position: center !important;
+  }
 
   .azusa-home-introduction {
     justify-content: flex-end;
@@ -59,8 +86,8 @@
     left: 4vw;
     width: 12vw;
     height: 12vw;
-    min-width: 10em;
-    min-height: 10em;
+    min-width: 8em;
+    min-height: 8em;
     transform: none;
   }
   .azusa-home-introduction h3 {
@@ -85,6 +112,7 @@
 
     background: rgb(0, 174, 239);
     color: white !important;
+    font-weight: bold;
     text-shadow: none;
     border-width: 0;
   }

@@ -798,7 +798,9 @@
     text-transform: lowercase;
     font-family: Cardo, 'Roboto', 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 400;
+    /*
     font-style: italic;
+    */
   }
   .azusa-home-introduction h3 .avoid-break {
     display: inline-block;

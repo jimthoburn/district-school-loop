@@ -71,6 +71,16 @@
     function getPageCategory(className) {
       if (titleHas('Education')) {
         return 'board';
+      } else if (titleHas('Our District')) {
+        return 'about';
+      } else if (titleHas('News')) {
+        return 'departments';
+      } else if (titleHas('Staff')) {
+        return 'staff';
+      } else if (titleHas('Schools')) {
+        return 'schools';
+      } else if (titleHas('Assessment')) {
+        return 'standards';
       } else if (titleHas(
                   'Parents',
                 )) {
