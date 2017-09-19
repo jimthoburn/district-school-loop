@@ -10,15 +10,28 @@ exports.HEAD_ELEMENT_HTML = `
 
 <meta name="robots" content="noindex" />
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Roboto+Slab:100,300,400,700" />
-<link rel="stylesheet" href="/css/shared.css" />
+<meta name="viewport" content="width=1250" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Roboto+Slab:300,400|Roboto:300i" />
+<link rel="stylesheet" href="/district-custom-code/custom-header.css" />
+<link rel="stylesheet" href="/district-custom-code/custom-header-district.css">
+
+<script type="text/template" id="azusa-home-video-template">
+  <iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/3d0JXqOvtKQ?autoplay=1;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</script>
+
+<script src="/district-custom-code/custom-header.js"></script>
 `;
 
-exports.LOGO_HTML = `
+/*exports.LOGO_HTML = `
 <a href="/">
   <img src="/images/azusa-district.png" width="150" alt="" />
   <h2>Azusa Unified School District</h2>
 </a>
+`;*/
+
+exports.LOGO_HTML = `
+<h1>Azusa Unified School District</h1>
 `;
 
 exports.FOOTER_HTML = `

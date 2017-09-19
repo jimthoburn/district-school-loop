@@ -136,24 +136,6 @@
     ]
   },
   {
-    "title": "\nPublic Information Office\n            ",
-    "pages": [
-      {
-        "url": "/news",
-        "title": "News"
-      }
-    ]
-  },
-  {
-    "title": "\nEmergency\n            ",
-    "pages": [
-      {
-        "url": "/emergency",
-        "title": "Emergency Information"
-      }
-    ]
-  },
-  {
     "title": "\nParents\n            ",
     "pages": [
       {
@@ -172,12 +154,20 @@
       {
         "url": "/medicalbenefits",
         "title": "Medical Benefits"
+      },
+      {
+        "url": "/dessertsocial",
+        "title": "Dessert Social 2017"
       }
     ]
   },
   {
-    "title": "\nDepts\n            ",
+    "title": "\nDepts.\n            ",
     "pages": [
+      {
+        "url": "/news",
+        "title": "News"
+      },
       {
         "url": "/business",
         "title": "Business Services"
@@ -309,7 +299,7 @@
     ]
   },
   {
-    "title": "\nCommon Core\n            ",
+    "title": "\nCA Standards\n            ",
     "pages": [
       {
         "url": "/cms/page_view?d=x&piid=&vpid=1441965979949",
