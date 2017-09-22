@@ -8,6 +8,7 @@
     background-color: rgba(57, 164, 208, 0.025); /* --light-blue */
     color: rgb(40, 41, 43);
     min-width: 1000px;
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   }
 
   /*
@@ -302,8 +303,8 @@
 
   h2 {
     font-family: inherit;
-    font-weight: inherit;
-    text-transform: uppercase;
+    font-weight: bold;
+    text-transform: inherit;
     font-family: "Cardo", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     color: rgb(0, 174, 239); /* --light-blue */
   }
@@ -316,7 +317,7 @@
   .block_content_left h2,
   .block_content_right h2 {
     font-family: inherit;
-    font-weight: inherit;
+    font-weight: bold;
     text-transform: inherit;
     background-image: none;
     color: rgb(0, 174, 239); /* --light-blue */
@@ -330,9 +331,9 @@
 
   #page_title {
     margin-top: 0.75em;
-    font-family: Cardo, "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
+    font-family: Merriweather, Cardo, "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: inherit;
     background-image: none;
     color: rgb(0, 174, 239); /* --light-blue */
     padding-left: 25px;
@@ -428,9 +429,9 @@
   #container_header h2,
   #container_home_header h2 {
     margin-top: 0.75em;
-    font-weight: inherit;
+    font-weight: bold;
 
-    font-family: Cardo, "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Merriweather, Cardo, "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
 
     line-height: 1.5;
     font-size: inherit;
@@ -773,13 +774,13 @@
   }
   .azusa-home-introduction h3 {
     text-align: center;
-    font-family: Cardo, 'Roboto Slab', 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: Merriweather, Cardo, 'Roboto Slab', 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 5vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
     line-height: 1.125;
-    text-transform: uppercase;
-    font-weight: 300;
+    text-transform: inherit;
+    font-weight: bold;
     max-width: 14em;
     margin-left: auto;
     margin-right: auto;
@@ -795,10 +796,11 @@
     }
   }
   .azusa-home-introduction h3 .lowercase {
-    text-transform: lowercase;
-    font-family: Cardo, 'Roboto', 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
-    font-weight: 400;
+    text-transform: inherit;
+    font-family: Merriweather, Cardo, 'Roboto', 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
+    
     /*
+    font-weight: 400;
     font-style: italic;
     */
   }

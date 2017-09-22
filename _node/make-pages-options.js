@@ -12,7 +12,10 @@ exports.HEAD_ELEMENT_HTML = `
 
 <meta name="viewport" content="width=1250" />
 
+<!--
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Roboto+Slab:300,400|Roboto:300i|Cardo" />
+-->
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i|Source+Sans+Pro:400,400i,700,700i" rel="stylesheet" />
 <link rel="stylesheet" href="/district-custom-code/custom-header.css" />
 <link rel="stylesheet" href="/district-custom-code/custom-header-district.css">
 
